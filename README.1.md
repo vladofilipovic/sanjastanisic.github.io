@@ -1,19 +1,10 @@
-# Portfolio
+## Portfolio
 
+Welcome to the Sanja Stanisić portfolio!
 
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-## Welcome to the Sanja Stanišić portfolio!
-
-
-### Articles
-
-- Filipović Vladimir, Zagarčanin Mladen, Tošić Dušan and Stanišić Sanja, **Digitalization in the Bar County Museum – Pilot Project**, _Review of the National Center for Digitization, Vol. 23, pp. 57-66, 2013_. 
-[journal web page](http://elib.mi.sanu.ac.rs/pages/browse_issue.php?db=ncd&rbr=23) 
-[article](./offline-items/ncd23057.pdf) 
-[conference web page]())
-
-### Public Talks
-
+### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
