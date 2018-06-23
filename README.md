@@ -8,8 +8,8 @@ Here you will find samples of my work.
 ### Articles
 
 - Filipović Vladimir, Zagarčanin Mladen, Tošić Dušan and Stanišić Sanja, **Digitalization in the Bar County Museum – Pilot Project**, _Review of the National Center for Digitization, Vol. 23, pp. 57-66, 2013_. 
-[journal web page](http://elib.mi.sanu.ac.rs/pages/browse_issue.php?db=ncd&rbr=23){:target="_blank"};
-[article](./offline-items/ncd23057.pdf){:target="_blank"}
+[[journal web page]](http://elib.mi.sanu.ac.rs/pages/browse_issue.php?db=ncd&rbr=23){:target="_blank"};
+[[article]](./offline-items/ncd23057.pdf){:target="_blank"}
 
 ### Public Talks
 
