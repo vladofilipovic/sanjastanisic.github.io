@@ -3,7 +3,8 @@
 
 
 ## Welcome to my Github page!
-## Here you will find samples of my work.
+
+Here you will find samples of my work.
 
 
 ### Articles
