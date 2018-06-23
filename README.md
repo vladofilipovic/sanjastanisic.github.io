@@ -1,8 +1,9 @@
-# Portfolio
+# Sanja Stanišić - Portfolio
 
 
 
-## Welcome to the Sanja Stanišić portfolio!
+## Welcome to my Github page!
+## Here you will find samples of my work.
 
 
 ### Articles
