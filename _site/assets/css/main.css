@@ -782,9 +782,12 @@ h2.resp-accordion:hover {
 -----------------Slika u clanku ---------------------
 ---------------------------------------------------*/
 .slika_u_clanku {
-    display:inline-block; 
-    text-align:center; 
-    width: 90%;
+    display: inline-block;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 /*--------------------------------------------------
