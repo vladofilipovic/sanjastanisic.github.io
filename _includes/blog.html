@@ -570,10 +570,10 @@
                                 <p>The eMunicipality project was implemented in two stages:</p>
 
 
-                                <p>&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;Procurement of computer equipment and configuration
+                                <p>&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;&nbsp;Procurement of computer equipment and configuration
                                     of IT infrastructure</p>
 
-                                <p>&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;Software development</p>
+                                <p>&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;&nbsp;Software development</p>
 
                                 <p>Both stages were preceded by preparation of adequate design and project documentation. The
                                     implementation of the project was supervised by the municipal working team led by the
@@ -681,13 +681,13 @@
                                     <div class="clear"></div>
                                 </div>
 
-                                <h4>Introduction and related work</h4>
+                                <h4>1. Introduction and related work</h4>
 
                                 <p>Every museum creates and maintains a catalogue of its own assets. This also applies to museum’s
                                     digital resources. Nowadays, there are many ongoing initiatives aimed at digitalizing
                                     national heritage [5], [9], as well as museum collections [1], [4], [6].</p>
 
-                                <h4>Bar County Museum</h4>
+                                <h4>2. Bar County Museum</h4>
 
                                 <p>Bar County Museum was established in 1959. It is housed in the King Nikola’s Palace, i.e.
                                     the summer house of King Nikola of Montenegro, built in 1885. The Museum is situated
@@ -747,130 +747,417 @@
                                 <p>The primary goal of this pilot project is to find out the optimal way of digitalizing and
                                     cataloguing museum resources, using modern information technology. </p>
 
-                                <h4>Digital asset management (DAM) </h4>
+                                <h4>3. Digital asset management (DAM) </h4>
 
                                 <p>
-                                    <em>Digital asset management (DAM)</em> consists of management tasks and decisions surrounding
+                                    <strong>Digital asset management (DAM)</strong> consists of management tasks and decisions surrounding
                                     the ingestion, annotation, cataloguing, storage, retrieval and distribution of digital
                                     assets [11].
-                                    </em>Digital asset management systems (DAMS)</em> include computer software and hardware
-                                    systems which support the process of digital asset management. </p>
+                                    </strong>Digital asset management systems (DAMS)</strong> include computer software and
+                                    hardware systems which support the process of digital asset management. </p>
                                 <p>The term "digital asset management" (DAM) also refers to the protocol for downloading, renaming,
                                     backing up, rating, grouping, archiving, optimizing, maintaining, thinning, and exporting
                                     files. </p>
 
                                 <p>Generally, the
-                                    <em>"asset"</em> being managed is collected and stored in a digital format. There is usually
-                                    a target version - referred to as "essence" - generally the highest-resolution and highest-fidelity
-                                    representation. The asset is detailed by its
-                                    <em>metadata</em>. Metadata is the description of the asset and the description depth can
-                                    vary depending on the needs of the system, designer, or user. </p>
+                                    <strong>"asset"</strong> being managed is collected and stored in a digital format. There is
+                                    usually a target version - referred to as "essence" - generally the highest-resolution
+                                    and highest-fidelity representation. The asset is detailed by its
+                                    <strong>metadata</strong>. Metadata is the description of the asset and the description depth
+                                    can vary depending on the needs of the system, designer, or user. </p>
 
                                 <p>Metadata can include, but is not limited to, the description of: asset content (what is in
                                     the package?); the means of encoding/decoding (e.g. JPEG, tar, MPEG 2); provenance (history
                                     to point of capture); ownership; rights of access; as well as many others. There exist
                                     some pre-defined standards and templates for metadata such as Dublin Core and PBCore.
-                                    </p>
+                                </p>
 
                                 <p>If systems contain large-size asset essences, such as MPEG 2 and JPEG2000 for the cases of
                                     images and video, there are usually related "proxy" copies of the essence. A proxy copy
                                     is a lower-resolution representation of the essence that can be used as a reference in
                                     order to reduce the overall bandwidth requirements of the DAM system infrastructure.
-                                    </p>
+                                </p>
 
                                 <p>The following broad categories of digital asset management systems may be distinguished [11]:
+                                </p>
+
+                                <p> &nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;&nbsp;Brand asset management systems, with a focus on facilitation
+                                    of content re-use within large organizations. </p>
+
+                                <p>
+                                    &nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;&nbsp;Library asset management systems, with a focus on storage and retrieval of large amounts
+                                    of infrequently changing media assets, for example in video or photo archiving.
+                                </p>
+
+                                <p>
+                                    &nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;&nbsp;Production asset management systems focus on managing assets as they are being created
+                                    for a digital media production (video game, 3D feature film, animation, visualeffects
+                                    shots, etc.) They usually include work-flow and project-management features.
+                                </p>
+
+                                <p> &nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;&nbsp;Digital supply chain services, pushing digital content
+                                    out to digital retailers (e.g. music, videos and games). </p>
+
+                                <p>DAM software may be open source or proprietary. </p>
+
+                                <p>According to [3], the heart of DAM systems should have the following set of core content
+                                    management functionalities (some native, some perhaps from 3rd parties):
+                                </p>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;1.&nbsp;&nbsp;&nbsp;&nbsp;The repository This is core of any system;
+                                    it builds a representation of the content utilizing a relational database or file system,
+                                    or some combination. This includes basic repository services, such as version control,
+                                    categorization, upload, and download.
+                                </p>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;2.&nbsp;&nbsp;&nbsp;&nbsp;The metadata index This includes descriptors,
+                                    administrative data as well as versions, and other hierarchical, peer to peer, parent
+                                    child or lineage relationships.
+                                </p>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;3.&nbsp;&nbsp;&nbsp;&nbsp;The search engine This feature performs
+                                    searches against the above-defined index and repository.
+                                </p>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;4.&nbsp;&nbsp;&nbsp;&nbsp;The access and rights subsystem Privileges
+                                    and permissions that define who can see and operate with different objects.
+                                </p>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;5.&nbsp;&nbsp;&nbsp;&nbsp;The workflow or collaboration engine Scheduling
+                                    and definition of tasks in serial or parallel progression. </p>
+
+                                <h4>4. Desirable characteristic for successful DAMS</h4>
+
+                                <p>Nowadays, there are many comparative analyses of different digital libraries [2] and digital
+                                    asset management systems [3].
+                                </p>
+
+                                <p>
+                                    Software that catalogue and manage digital resources (DAMS) should have following features (ordered from the most important
+                                    to less important ones):
+                                </p>
+                                <p>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;1.
+                                    <em>Ability to upload and store digital resources</em>. Software which manages digital resources
+                                    should have all the facilities needed to manage many different types of media across
+                                    the organization. Uploaded resources should be kept safe and without loss of quality.
+                                    It should also allow automatic extraction of digital resource‘s properties and attaching
+                                    extracted properties (metadata) to uploaded digital resource (asset).
+                                </p>
+                                <p> &nbsp;&nbsp;&nbsp;&nbsp;2.
+                                    <em>Ability to add various properties to uploaded digital resource</em>. DAMS should allow
+                                    end user to catalogue uploaded digital resource e.g. to attach various metadata values
+                                    to uploaded digital resource. Specific 'tags' can be added to digital resource to provide
+                                    users with search controls that help them to operate the system with minimal effort and
+                                    expertise
+                                </p>
+                                <p> &nbsp;&nbsp;&nbsp;&nbsp;3.
+                                    <em>Ability to work on the web</em>. Digital Asset Manager should allow end user to interact
+                                    with the system (upload data, catalogue data, make inquires) by using web as communication
+                                    channel.
+                                </p>
+                                <p> &nbsp;&nbsp;&nbsp;&nbsp;4.
+                                    <em>Advanced Search</em>. Digital Asset Manager should provide users with search technology
+                                    that enables them to quickly and easily locate the media files they need. Also, Digital
+                                    Asset Manager should permit users to browse for, as well as search for media files by
+                                    using ‘tags’.
+                                </p>
+                                <p> &nbsp;&nbsp;&nbsp;&nbsp;5.
+                                    <em>Powerful Media Processing Features</em>. Digital Asset Manager should handle most common
+                                    media types, including: photos, video, audio and print artwork. It should autogenerate
+                                    thumbnails and previews for most supported media types including bandwidth intensive
+                                    media like high definition (HD) video or high resolution artwork.
+                                </p>
+                                <p> &nbsp;&nbsp;&nbsp;&nbsp;6.
+                                    <em>Easy To Use</em>. User interfaces should be designed to be intuitive and utilize GUI
+                                    models that users are already familiar with. It should also offer a comprehensive and
+                                    contextsensitive help system that will guide even the most novice user through key tasks
+                                    and system functions.
+                                </p>
+                                <p> &nbsp;&nbsp;&nbsp;&nbsp;7.
+                                    <em>Flexible and Configurable</em>. Media and metadata management tools should be flexible,
+                                    which means that media files can be hidden or shown to certain users, can be displayed
+                                    with or without a watermark (includes video) and can be restricted from download or flagged
+                                    for approval before publication. Likewise, administrators should have ability to revise
+                                    and add metadata fields to media files with far greater ease and control, ensuring that
+                                    media is catalogued, presented and made available to users exactly as the business requires.
+                                </p>
+                                <p> &nbsp;&nbsp;&nbsp;&nbsp;8.
+                                    <em>Scalable</em>. Offered solution should have very scalable nature and the whole system
+                                    have to perform well under very heavy load (e.g. hundreds of concurrent user). Also,
+                                    it should perform well even in the case when demands arise very quickly. The architecture
+                                    of Digital Asset Manager should be robust, and implementation should be without ‘narrow
+                                    throats’.
+                                </p>
+                                <p> &nbsp;&nbsp;&nbsp;&nbsp;9.
+                                    <em>Possibility of automatic interchange</em>. Offered software should have a way to interchange
+                                    digital resources and/or metadata in automatic manner. In other words, the system should
+                                    have possibility to communicate with other systems, or with digital resources register,
+                                    like the register that is proposed in [10].
+                                </p>
+                                <p> &nbsp;&nbsp;&nbsp;&nbsp;10.
+                                    <em>Ability for further changes and improvements</em>. Digital Asset Manager will be changed
+                                    and improved during years. In order to achieve that goal, source of the system should
+                                    be available for further improvements and modifications.
+                                </p>
+                                <p> &nbsp;&nbsp;&nbsp;&nbsp;11.
+                                    <em>Multiple brands under multiple domains in the same core system</em>. Digital Asset Manager
+                                    should be structured in such a way that each brand can have its own styling (logo, images,
+                                    colors), a unique domain name (rather than a sub-domain), different metadata, terminology
+                                    and home page. All digital resources and users from one brand are separated from those
+                                    in other brands, so end users do not ever need to be aware that the system is shared.
+                                </p>
+                                <p> &nbsp;&nbsp;&nbsp;&nbsp;12.
+                                    <em>Single sign-on</em>. The system should provide a single sign-on services to the entire
+                                    organization. It should simultaneously support access from approved external users without
+                                    internal network access.
+                                </p>
+                                <p> &nbsp;&nbsp;&nbsp;&nbsp;13.
+                                    <em>Streamlined Cataloguing</em>. Administrators should be able to catalogue media easily
+                                    and quickly, yet still produce the comprehensive metadata needed for fast and accurate
+                                    search results. The streamlining features include: digital asset cross-referencing, metadata
+                                    templates, scheduled uploading and bulk uploading.
+                                </p>
+                                <p> &nbsp;&nbsp;&nbsp;&nbsp;14.
+                                    <em>Copyright and Brand Control</em>. To better protect the copyright and reduce the risk
+                                    of license breach or brand misuse the Digital Asset Manager should enable administrators
+                                    to control media use - protecting against unauthorized downloads, applying watermarks
+                                    or suppressing media previews and files for selected user groups on a per asset basis.
+                                    Furthermore, the system should support publications and expiry features.
+                                </p>
+                                <p> &nbsp;&nbsp;&nbsp;&nbsp;15.
+                                    <em>Comprehensive Statistics and Reporting</em>. Reporting feature enables administrators
+                                    to rapidly generate reports on media and system usage, such as login and registration
+                                    statistics, media download statistics and user audit trails. This information assists
+                                    administrators in troubleshooting and assessing the need for media or system features
+                                    into the future.
+                                </p>
+                                <h4>5. Open source software </h4>
+
+                                <p>The paper [7] states that there are three main types of software product firms: </p>
+                                <p>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;1. Closed source firms own all competitively differentiating software components their products are
+                                    based on (e.g. : Microsoft Windows, Oracle’s database and SAP Business Suite). </p>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;2. Single-vendor open source firms also own all competitively differentiating
+                                    components, but they make some of these components available as open source (like: Alfresco,
+                                    Jaspersoft’s BI, etc.).
+                                </p>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;3. Open source distributors integrate a large set of open source
+                                    components and distribute the assembly for free. The distributors typically don’t own
+                                    these components (for instance, Red Hat’s Linux).
+
+                                    <p>An open-source software is available in a source code form: the source code and certain
+                                        other rights normally reserved for copyright holders are provided under a software
+                                        license that permits users to study, change, improve and also to distribute the software
+                                        [12].
+                                    </p>
+                                    <p>
+                                        An open source software is very often developed in a public, collaborative manner. It doesn't just mean access to the source
+                                        code. The distribution terms of an open-source program must comply with the following
+                                        criteria.
+                                    </p>
+                                    <p>
+                                        According to [7], in order to be an open source, all of the terms below must be applied together, and in all cases. For example,
+                                        they must be applied to derived versions of a program as well as the original program.
+                                        It's not sufficient to apply some and not others, and it's not sufficient for the
+                                        terms to apply only some of the time. </p>
+
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp; 1.
+                                        <strong>Free Redistribution</strong>. The license may not restrict any party from selling
+                                        or giving away the software as a component of an aggregate software distribution
+                                        containing programs from several different sources. The license may not require a
+                                        royalty or other fee for such sale.
+                                    </p>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp; 2.
+                                        <strong>Source Code</strong>. The program must include source code and must allow distribution
+                                        in source code as well as in a compiled form. Where some form of a product is not
+                                        distributed with the source code, there must be a well-publicized means of downloading
+                                        the source code, without charge, via the Internet. The source code must be the preferred
+                                        form that a programmer could modify the program.
+                                    </p>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp; 3.
+                                        <strong>Derived Works</strong>. The license must allow modifications and derived works, requiring
+                                        that derived code will be distributed under the same terms as the license of the
+                                        original software. The software has little use if you can't maintain it (fix bugs,
+                                        port to new systems, make improvements), and modification is necessary for maintenance.
+                                        The intent here is to allow modifications of any sort. It must be allowed for a modified
+                                        work to be distributed under the same license terms as the original work.
+                                    </p>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp; 4.
+                                        <strong>Integrity of the Author's Source Code</strong>. The license may restrict source code
+                                        from being distributed in a modified form only if it allows the distribution of "patch
+                                        files" with the source code for the purpose of modifying the program at build time.
+                                        The license must explicitly permit distribution of software built from modified source
+                                        code. The license may require that derived works have a different name or version
+                                        number from the original software.
+                                    </p>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp; 5.
+                                        <strong>No Discrimination against Persons or Groups</strong>. The license must not discriminate
+                                        any person or group of persons.
+                                    </p>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp; 6.
+                                        <strong>No Discrimination against Fields of Endeavor</strong>. The license must not restrict
+                                        anyone from making use of the program in a specific field of endeavor. For example,
+                                        it may not restrict the program from being used in a business, or from being used
+                                        for genetic research.
+
+                                    </p>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp; 7.
+                                        <strong>Distribution of License</strong>. The rights attached to the program must apply to
+                                        all to whom the program is redistributed, without the need for execution of an additional
+                                        license by those parties.
+                                    </p>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp; 8.
+                                        <strong>License Must Not Be Specific to a Product</strong>. The rights attached to the program
+                                        must not depend on the program's being part of a particular software distribution.
+                                        If the program is extracted from that distribution and used or distributed within
+                                        the terms of the program's license, all parties to whom the program is redistributed
+                                        should have the same rights as those that are granted in conjunction with the original
+                                        software distribution. This means you can't restrict a product that is identified
+                                        as open source to be free only if you use it with a particular brand of Linux distribution,
+                                        etc. It must remain free if you separate it from the software distribution it came
+                                        with.
+                                    </p>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp; 9.
+                                        <strong>License Must Not Contaminate Other Software</strong>. The license must not place
+                                        restrictions on other software distributed along with the licensed software. For
+                                        example, the license must not insist that all other programs distributed on the same
+                                        medium must be opensource software. </p>
+
+                                    <h4>6. FocusOPEN Digital Asset Manager</h4>
+
+                                    <p>In the case of digitalizing the assets of the Bar County Museum we decided to implement
+                                        the pilot project with open source software for DAM, instead of building our own
+                                        proprietary software. </p>
+                                    <p>
+                                        The requirements that should have a successful DAMS, enlisted in section 4, are hard to achieve for the software build from
+                                        the scratch. To be more precise, that requirements are almost impossible to achieve
+                                        in adequate time frame and with resources that are available to us. </p>
+                                    <p>
+                                        On the other way, the limitations arising from open source license don’t prevent us from upgrading and changing downloaded
+                                        solution. In other words, we can upgrade and change downloaded open source solution,
+                                        without breaching license agreement. During evaluation of possible candidates, one
+                                        open-source product has drowned our attention – an open source version of FocusOPEN
+                                        Digital Asset Manager fulfills almost all requirements enlisted in section 4. </p>
+                                    <p>
+                                        According to the classification from the beginning of Section 5, the selected software product is created by a single-vendor
+                                        open source firm, which owns all competitively differentiating components, but it
+                                        makes the FocusOPEN available as open source. </p>
+                                    <p>
+                                        FocusOPEN Digital Asset Manager is a digital asset management solution designed to help businesses make more of their media,
+                                        from managing brands to distributing marketing collateral or other media assets.
                                     </p>
 
-                                <p> • Brand asset management systems, with a focus on facilitation of content re-use within large
-                                    organizations. </p>
+                                    <h4>7. Outline of the pilot project and gained results </h4>
 
-                                <p>
-                                    • Library asset management systems, with a focus on storage and retrieval of large amounts of infrequently changing media
-                                    assets, for example in video or photo archiving.
-                                </p>
+                                    <h4>8. Conclusion and future work </h4>
 
-                                <p>
-                                    • Production asset management systems focus on managing assets as they are being created for a digital media production (video
-                                    game, 3D feature film, animation, visualeffects shots, etc.) They usually include work-flow
-                                    and project-management features.
-                                </p>
+                                    <h4>References</h4>
+                                    <p> [1] Branković T., Šega M., Digitalization of Collections in the National Museum of Požarevac,
+                                        Review of the National Center for Digitization 16, pp. 55-58, 2010 
+                                    </p>
+                                    <p> [2] Dobreva M, Feliciati P., User-centric Evaluation of Digital Libraries: Three Case
+                                        Studies, Review of the National Center for Digitization 18, pp. 1-15, 2011
+                                    </p>
+                                    <p> [3] Magan A., Intro to Digital Asset Management: Just what is a DAM? http://www.realstorygroup.com/Feature/124-DAM-vs.-DM,
+                                        2005
+                                    </p>
+                                    <p>[4] Mijajlović M., Stojanović A., Digitalization process in Belgrade City Museum, Review
+                                        of the National Center for Digitization 17, pp. 50-56, 2010
+                                    </p>
+                                    <p>[5] Mijajlović Ž., Pejović N., Ognjanović Z., Doctoral Dissertations in NCD Virtual Llibrary,
+                                        Review of the National Center for Digitization 18, pp. 15-18, 2011
+                                    </p>
+                                    <p>[6] Mirčić A., Jeremić N., Project of Digitization of Art Documentation Department Museum
+                                        of Contemporary Art, Belgrade, Review of the National Center for Digitization 15,
+                                        pp. 77-80, 2009
+                                    </p>
+                                    <p>[7] Perens B., Open Sources: Voices from the Open Source Revolution, ISBN: 1-56592-582-3,
+                                        http://oreilly.com/catalog/opensources/book/perens.html, 1999
+                                    </p>
+                                    <p>[8] Riehle D., Controlong and Steering Open Source Projects, IEEE Computer, July 2011,
+                                        pp. 93- 96, 2011
+                                    </p>
+                                    <p>[9] Zorić I., Processing of Documents and Digitalization of Photographs from Nikola Tesla’s
+                                        Personal Fund, Review of the National Center for Digitization 15, pp. 41-46, 2009
+                                    </p>
+                                    <p>[10] Životić S., Malkov S., Mitić N, Mijajlović Ž., A Cultural Heritage Register Prototype,
+                                        Review of the National Center for Digitization 17, pp. 1-8, 2010
+                                    </p>
+                                    <p>[11] http://en.wikipedia.org/wiki/Digital_asset_management, 2011
+                                    </p>
+                                    <p>[12] http://en.wikipedia.org/wiki/Open_source_software, 2011
+                                    </p>
+                                    <p></p>
+                                    <div class="col-md-12 first">
+                                        <div class="info">
+                                            <div>
+                                                <span class="tag">
+                                                    <a href=" http://www.ncd.org.rs/ncd_sr/Events/NCDbeograd2011/NCD_Beograd2011.html" target="blank">
+                                                        Link to Conference</a>
+                                                </span>
+                                                <span class="tag">
+                                                    <a href="http://elib.mi.sanu.ac.rs/pages/browse_issue.php?db=ncd&rbr=23" target="blank">
+                                                        Link to Journal</a>
+                                                </span>
+                                                <span class="tag">
+                                                    <a href="https://sanjastanisic.github.io/images/img/writing-samples/Digitalization_Bar_County_Museum.pdf" target="blank">
+                                                        Link to Article</a>
+                                                </span>
+                                            </div>
 
-                                <p> • Digital supply chain services, pushing digital content out to digital retailers (e.g. music,
-                                    videos and games). </p>
 
-                                <p></p>
-                                <div class="col-md-12 first">
-                                    <div class="info">
-                                        <div>
-                                            <span class="tag">
-                                                <a href=" http://www.ncd.org.rs/ncd_sr/Events/NCDbeograd2011/NCD_Beograd2011.html" target="blank">
-                                                    Link to Conference</a>
-                                            </span>
-                                            <span class="tag">
-                                                <a href="http://elib.mi.sanu.ac.rs/pages/browse_issue.php?db=ncd&rbr=23" target="blank">
-                                                    Link to Journal</a>
-                                            </span>
-                                            <span class="tag">
-                                                <a href="https://sanjastanisic.github.io/images/img/writing-samples/Digitalization_Bar_County_Museum.pdf" target="blank">
-                                                    Link to Article</a>
-                                            </span>
+                                            <ul class="info-post">
+                                                <li>
+                                                    <i class="glyphicon glyphicon-time"></i> September, 2011</li>
+                                                <li>
+                                                    <i class="glyphicon glyphicon-user"></i> by Vladimir Filipovic, Mladen Zagarcanin, Dusan Tosic and Sanja
+                                                    Stanisic
+                                                </li>
+                                                <li>
+                                                    <i class="glyphicon glyphicon-tag"></i> Digitalization, Museum of Bar, Museum Archives, Digital asset management,
+                                                    Open source software</li>
+                                            </ul>
                                         </div>
 
-
-                                        <ul class="info-post">
-                                            <li>
-                                                <i class="glyphicon glyphicon-time"></i> September, 2011</li>
-                                            <li>
-                                                <i class="glyphicon glyphicon-user"></i> by Vladimir Filipovic, Mladen Zagarcanin, Dusan Tosic and Sanja Stanisic</li>
-                                            <li>
-                                                <i class="glyphicon glyphicon-tag"></i> Digitalization, Museum of Bar, Museum Archives, Digital asset management,
-                                                Open source software</li>
-                                        </ul>
-                                    </div>
-
-                                    <div class="clear"></div>
+                                        <div class="clear"></div>
 
 
-                                    <div class="about_author">
-                                        <div class="title_content" style="margin-bottom:10px">
-                                            <div class="text_content">BILL GATES</div>
+                                        <div class="about_author">
+                                            <div class="title_content" style="margin-bottom:10px">
+                                                <div class="text_content">BILL GATES</div>
+                                                <div class="clear"></div>
+                                            </div>
+
+                                            <div class="clear"></div>
+
+
+                                            <div class="prg_content">
+                                                <img src="http://placehold.it/100x100" width="100" height="100" alt="img">
+
+                                                <div class="text">
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent condimentum sed elit vitae tristique. Aliquam erat volutpat.
+                                                    Nunc sit amet cursus libero. In fringilla egestas ornare.
+                                                </div>
+
+                                                <div class="nb_post" style="margin-top: 10px;">
+                                                    <b id="nb_post"> 15 posts</b> created by author
+                                                </div>
+                                            </div>
+
                                             <div class="clear"></div>
                                         </div>
 
                                         <div class="clear"></div>
 
 
-                                        <div class="prg_content">
-                                            <img src="http://placehold.it/100x100" width="100" height="100" alt="img">
-
-                                            <div class="text">
-                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent condimentum sed elit vitae tristique. Aliquam erat volutpat.
-                                                Nunc sit amet cursus libero. In fringilla egestas ornare.
-                                            </div>
-
-                                            <div class="nb_post" style="margin-top: 10px;">
-                                                <b id="nb_post"> 15 posts</b> created by author
-                                            </div>
+                                        <div class="col-md-12" style="margin-top: 20px;">
+                                            <a href="#post-3" class="readmore" id="pagination">
+                                                <i class="glyphicon glyphicon-chevron-right"></i>
+                                            </a>
+                                            <a href="#post-1" class="readmore" id="pagination">
+                                                <i class="glyphicon glyphicon-chevron-left"></i>
+                                            </a>
+                                            <a href="#blog" class="readmore">
+                                                <i class="glyphicon glyphicon-chevron-left"></i> All Articles</a>
                                         </div>
 
                                         <div class="clear"></div>
-                                    </div>
-
-                                    <div class="clear"></div>
-
-
-                                    <div class="col-md-12" style="margin-top: 20px;">
-                                        <a href="#post-3" class="readmore" id="pagination">
-                                            <i class="glyphicon glyphicon-chevron-right"></i>
-                                        </a>
-                                        <a href="#post-1" class="readmore" id="pagination">
-                                            <i class="glyphicon glyphicon-chevron-left"></i>
-                                        </a>
-                                        <a href="#blog" class="readmore">
-                                            <i class="glyphicon glyphicon-chevron-left"></i> All Articles</a>
-                                    </div>
-
-                                    <div class="clear"></div>
 
                             </article>
                             </div>
