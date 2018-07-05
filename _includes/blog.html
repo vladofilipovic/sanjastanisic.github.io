@@ -782,7 +782,7 @@
                                 </p>
 
                                 <p> &nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;&nbsp;Brand asset management systems, with a focus on facilitation
-                                    of content re-use within large organizations. </p>
+                                    of content reuse within large organizations. </p>
 
                                 <p>
                                     &nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;&nbsp;Library asset management systems, with a focus on storage and retrieval of large amounts
@@ -792,7 +792,7 @@
                                 <p>
                                     &nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;&nbsp;Production asset management systems focus on managing assets as they are being created
                                     for a digital media production (video game, 3D feature film, animation, visualeffects
-                                    shots, etc.) They usually include work-flow and project-management features.
+                                    shots, etc.) They usually include workflow and project-management features.
                                 </p>
 
                                 <p> &nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;&nbsp;Digital supply chain services, pushing digital content
@@ -1034,6 +1034,9 @@
                                         without breaching license agreement. During evaluation of possible candidates, one
                                         open-source product has drowned our attention – an open source version of FocusOPEN
                                         Digital Asset Manager fulfills almost all requirements enlisted in section 4. </p>
+
+                                    <img class="title_content" src="images/img/writing-samples/ncd-picture-4.png" alt="" />
+
                                     <p>
                                         According to the classification from the beginning of Section 5, the selected software product is created by a single-vendor
                                         open source firm, which owns all competitively differentiating components, but it
@@ -1043,13 +1046,109 @@
                                         from managing brands to distributing marketing collateral or other media assets.
                                     </p>
 
+                                    <p>FocusOPEN is based on Windows server technology. The main requirements are: </p>
+                                    <p> &nbsp;&nbsp;&nbsp;&nbsp;• Windows Server 2003 or 2008
+                                    </p>
+                                    <p> &nbsp;&nbsp;&nbsp;&nbsp;• IIS 6,7 or 7.5
+                                    </p>
+                                    <p> &nbsp;&nbsp;&nbsp;&nbsp;• SQL Server 2005 or 2008
+                                    </p>
+                                    <p> &nbsp;&nbsp;&nbsp;&nbsp;• ASP.NET 3.5</p>
+
+                                    <p>It is possible to run FocusOPEN on PWS or IIS7 on Vista/Windows 7 and SQL Server Express
+                                        2005 or 2008.</p>
+
+                                    <p>
+                                        FocusOPEN is delivered using a multi-tier architecture that can be distributed across one or more hosts: </p>
+
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp; • Web Application: The core ASP.NET Digital Asset Management
+                                        system where most of the business logic is contained
+                                    </p>
+                                    <p> &nbsp;&nbsp;&nbsp;&nbsp; • Database: SQL Server RDBMS
+                                    </p>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp; • File system: Assets are stored in the file system so any accessible
+                                        file storage device can be used
+                                    </p>
+                                    <p> &nbsp;&nbsp;&nbsp;&nbsp; • Media Processing: A dedicated Asset Processing Server (APS)
+                                        is provided as a Windows service </p>
+
+                                    <p>FocusOPEN supports server farms, clustering, redundancy, and other High Availability
+                                        technology. For storing digital assets, FocusOPEN supports multiple storage points
+                                        and it is possible to store assets in multiple locations simultaneously without consolidating
+                                        them.
+                                    </p>
+
+                                    <p> The APS (Asset Processing Server) is a Windows service and uses WCF (Windows Communication
+                                        Framework) to exchange messages with the FocusOPEN web application via a designated
+                                        TCP port. It is a self-contained subsystem and can also be used independently with
+                                        other WCF compliant applications.
+                                    </p>
+
+                                    <img class="title_content" src="images/img/writing-samples/ncd-picture-6.png" alt="" />
+
+                                    <p>FocusOPEN has a number of unmodified free and open source dependencies that are used
+                                        for media processing and extracting metadata: </p>
+
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp; • ImageMagick
+                                    </p>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp; • FFMPEG
+                                    </p>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp; • FLVTool2
+                                    </p>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp; • LAME
+                                    </p>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp; • GhostScript
+                                    </p>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp; • EXIFTool
+                                    </p>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp; • TagLib#
+                                    </p>
+
+                                    <p>FocusOPEN uses the following free and open source client-side components: </p>
+
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp; • FlowPlayer (video)
+                                    </p>
+                                    <p>&nbsp;&nbsp;&nbsp;&nbsp; • MP3 Player (audio)
+                                    </p>
+                                    <p> FocusOPEN is an ASP.NET 3.5 web application authored in C#. All editions include copies
+                                        of the source code. </p>
+
                                     <h4>7. Outline of the pilot project and gained results </h4>
+
+                                    <p> The pilot project is planned and implemented according to recommendations discussed in
+                                        paper [8]. The Faculty of Mathematics’ part of the team has as a task the adaptation
+                                        and localization of the open source software, and part of the team from Bar is supposed
+                                        to upload real data from museum collections into digital asset management system.
+                                    </p>
+                                    <p>People from Faculty of Mathematics are to configure DAMS based on the FocusOPEN open
+                                        source software and set it on the Faculty’s web server. In that way, this part of
+                                        the team enables uploading and cataloguing Bar County Museum digital resources.
+                                    </p>
+                                    <p>Due to its open-source nature, the solution implemented in this pilot project can be
+                                        easily made interoperable with Cultural heritage register, similar to register described
+                                        in [10].
+                                    </p>
 
                                     <h4>8. Conclusion and future work </h4>
 
+                                    <p>The pilot project shows that open source software for DAM FocusOPEN can be successfully
+                                        applied in Bar County Museum digital resource management.
+                                    </p>
+                                    <p>We configured DAMS based on the FocusOPEN open source software, set it on web server
+                                        at Faculty of Mathematics and uploaded and catalogued some of Bar County Museum digital
+                                        resources. After the successful completion of this pilot project, we are going to
+                                        upgrade and localize FocusOPEN open source system and translate all user interfaces
+                                        into Serbian.
+                                    </p>
+                                    <p> In order to do so and not breach the license agreement, we are going to set a repository
+                                        for modified source code and make that repository accessible from every web page
+                                        of modified solution. Assets that are already uploaded into DAMS will be preserved
+                                        – changes of the software will not influence previously uploaded digital assets.
+                                    </p>
+
                                     <h4>References</h4>
                                     <p> [1] Branković T., Šega M., Digitalization of Collections in the National Museum of Požarevac,
-                                        Review of the National Center for Digitization 16, pp. 55-58, 2010 
+                                        Review of the National Center for Digitization 16, pp. 55-58, 2010
                                     </p>
                                     <p> [2] Dobreva M, Feliciati P., User-centric Evaluation of Digital Libraries: Three Case
                                         Studies, Review of the National Center for Digitization 18, pp. 1-15, 2011
