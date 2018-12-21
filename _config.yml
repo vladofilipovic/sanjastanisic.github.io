@@ -1,15 +1,12 @@
 
 title: Resume
-url: 'http://junlulocky.com'
+url: 'http://sanjastanisic.com'
 baseurl: '/sanjastanisic.github.io' #change it according to your repository name
-
-
 
 # Profile information
 yourname: Sanja Stanišić
 title: 'PR &amp; Project Manager'  
 location: Belgrade, Serbia
-
 
 ## Social Profiles
 facebook: http://www.facebook.com  ## your facebook account url
@@ -20,5 +17,9 @@ foursquare: http://www.foursquare.com  ## your foursquare account url
 
 # Google Analytics
 google_analytics: UA—121906363-1
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
 
 # Update all the sections by editing the files inside _includes folder.
