@@ -1,6 +1,7 @@
 
 title: Resume
-url: 'http://sanjastanisic.com'
+description: Resume of Sanja Stanisic
+url: 'https://sanjastanisic.github.io/'
 baseurl: '/sanjastanisic.github.io' #change it according to your repository name
 
 # Profile information
