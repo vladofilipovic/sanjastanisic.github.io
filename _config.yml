@@ -6,7 +6,7 @@ baseurl: '/sanjastanisic.github.io' #change it according to your repository name
 
 # Profile information
 yourname: Sanja Stanišić
-title: 'PR &amp; Project Manager'  
+title: 'PR &amp; Project Manager'
 location: Monza, Italy
 
 ## Social Profiles
@@ -17,7 +17,11 @@ dribbble: http://www.dribble.com  ## you dribbble account url
 foursquare: http://www.foursquare.com  ## your foursquare account url
 
 # Google Analytics
-google_analytics: UA—121906363-1
+analytics:
+  provider: "google-gtag"
+  google:
+    measurement_id: "G-4Y3YWCKNH1"
+    anonymize_ip: # true, false (default)
 
 # Plugins
 plugins:
