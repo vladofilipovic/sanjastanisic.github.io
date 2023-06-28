@@ -24,8 +24,4 @@ analytics:
     measurement_id: "G-TCRJGF32LT"
     anonymize_ip: # true, false (default)
 
-# Plugins
-plugins:
-  - jekyll-seo-tag
-
 # Update all the sections by editing the files inside _includes folder.
