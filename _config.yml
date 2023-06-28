@@ -20,7 +20,8 @@ foursquare: http://www.foursquare.com  ## your foursquare account url
 analytics:
   provider: "google-gtag"
   google:
-    measurement_id: "G-4Y3YWCKNH1"
+#    measurement_id: "G-4Y3YWCKNH1"
+    measurement_id: "G-TCRJGF32LT"
     anonymize_ip: # true, false (default)
 
 # Plugins
