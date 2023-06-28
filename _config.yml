@@ -25,7 +25,7 @@ analytics:
     anonymize_ip: # true, false (default)
 
 # Plugins
-gems:
+plugins:
   - jekyll-seo-tag
 
 # Update all the sections by editing the files inside _includes folder.
